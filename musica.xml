@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE disquetera
+[
+<!ELEMENT disquetera (disc*)>
+<!ELEMENT disc (titol,genere,grup,data_lloc,any,duracio,canso*)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT data_lloc (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT duracio (#PCDATA)>
+<!ELEMENT canso (nom,durada)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT durada (#PCDATA)>
+]>
 <disquetera>   
     <disc>
         <titol>No Excuses</titol>
         <genere>Punk Rock</genere>
-        <nom>Not Available</nom>
+        <grup>Not Available</grup>
         <data_lloc>1977 Elslingen, Alemania</data_lloc>
         <any>1992</any>
         <duracio>45:20</duracio>
-        <canço>
-            <1>Raise Your Voice 1:56</1>
-            <2>I Don't Believe You 3:47</2>
-            <3>We Won't Let You Down 3:46</3>
-            <4>Mean Machine 4:37</4>
-        </canço>
+        
+        <canso>
+            <nom>Raise Your Voice</nom>
+            <durada>1:56</durada>
+        </canso>
+        
+        <canso>
+            <nom>I Don't Believe You</nom>
+            <durada>3:47</durada>
+        </canso> 
+        
+        <canso>
+            <nom>We Won't Let You Down</nom>
+            <durada>3:46</durada>
+        </canso>
+        
+        <canso>
+            <nom>Mean Machine</nom>
+            <durada>4:37</durada>
+        </canso>
+        
     </disc>
+
     <disc>
         <titol>Vulgar Display of Power</titol>
         <genere>Thrash Metal</genere>
-        <nom>Pantera</nom>
+        <grup>Pantera</grup>
         <data_lloc>1965 Arlington, Texas</data_lloc>
         <any>1983</any>
         <duracio>58:00</duracio>
-        <canço>Mouth for War 3:56</canço>
-        <durada>3:56</durada>
-        <canço>A New Level</canço> 
-        <durada>3:97</durada>
-        <canço>Walk</canço>
-        <durada>5:56</durada>
-        <canço>Fucking Hostile 2:48</canço>
-        <durada>2:48</durada>
+        
+        <canso>
+            <nom>Mouth for War</nom>
+            <durada>3:56</durada>
+        </canso>
+        
+        <canso>
+            <nom>A New Level</nom>
+            <durada>3:97</durada>
+        </canso> 
+        
+        <canso>
+            <nom>Walk</nom>
+            <durada>5:56</durada>
+        </canso>
+        
+        <canso>
+            <nom>Fucking Hostile</nom>
+            <durada>2:48</durada>
+        </canso>
+        
     </disc>
 </disquetera>
